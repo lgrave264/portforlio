@@ -1,0 +1,17 @@
+body {
+  background-color: red;
+}
+
+#sprite {
+  height: 100px;
+  width: 100px;
+}
+
+#block {
+  background-color: blue;
+  height: 100px;
+  width: 200px;
+  margin-left: 50%;
+  margin-top: 30%;
+}
+/*# sourceMappingURL=index.css.map */
