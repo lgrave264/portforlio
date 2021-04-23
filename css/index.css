@@ -37,6 +37,11 @@ li a {
   background-color: white;
 }
 
+#footerText {
+  font-size: small;
+  bottom: 0;
+}
+
 .footer {
   position: fixed;
   left: 0;
@@ -108,6 +113,7 @@ input:checked + .slider:before {
   width: 55px;
   margin-right: 5px;
   border-radius: 50%;
+  bottom: 0;
 }
 
 table, td, th, ol, ul {
