@@ -9,7 +9,7 @@
     <link rel="icon" href="images/logo2.png" type="image/gif" sizes="32x32">
 </head>
 <body>
-    <nav class="navBar" id="myTopnav">
+    <nav class="navBar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="pages/page2(aboutme).html">About me</a></li>
@@ -17,7 +17,7 @@
             <li><a href="pages/page4(training).html">Training</a></li>
             <li style="float: right;">
                 <label class="switch">
-                    <input id="retroButton" name="retro" type="checkbox" onclick="myFunction() , changeImage()">
+                    <input id="retroButton" name="retro" type="checkbox" onclick="myFunction() , changeImage(), changeImage2()">
                     <span class="slider round"></span>
                 </label>
         </li>
@@ -25,16 +25,16 @@
     </nav> 
     <table style="width: 100%">
         <tr>
-            <td colspan="2">
-                <img id="logo" src="images/logo2.png">
+            <td colspan="3">
+                <img id = "logo" src="images/logo2.png">
             </td>
         </tr>
         <tr>
-            <td colspan="2"><h2>intro</h2></td>
+            <td colspan="3"><h2>Hi, welcome to my portfolio page. You will see all the information about me, my company, and my past work.</h2></td>
         </tr>
         <tr>
-            <td><h2>logo</h2></td>
-            <td><h2>company</h2></td>
+            <td><h2><img id = "logo2" src="images/logo2.png"></h2></td>
+            <td colspan="2"><h2>GraveStone Productions is my company I made. Its a multipurpose company of coding and design. We take requests ranging from websites and games to logos and design.</h2></td>
         </tr>
     </table>
     <br>
@@ -46,6 +46,6 @@
     <div class="footer">
         <p><h5 id="footerText" style="float: left;">Contact: Example@gmail.com<p>COPYRIGHT&#169;</p></h5><h4 style="float: right;" type="button"><img class="rounded-circle friend" src="images/insta.jpg"><img class="rounded-circle friend" src="images/face.jpg"><img class="rounded-circle friend" src="images/twiiter.jpg"></h4>
       </div>
-    <script src="js/index.js"></script>
+    <script src="js/page1.js"></script>
 </body>
 </html>
