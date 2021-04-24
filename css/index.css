@@ -125,24 +125,23 @@ table, td, th, ol, ul {
   list-style: inside;
 }
 
-.links{
+.links {
   color: white;
 }
 
-.project{
+.project {
   height: 200px;
   width: 500px;
 }
 
-#vit{
+#vit {
   border-radius: 50%;
   height: 200px;
   width: 200px;
 }
 
-.design{
+.design {
   height: 300px;
   width: 500px;
 }
-
 /*# sourceMappingURL=index.css.map */
